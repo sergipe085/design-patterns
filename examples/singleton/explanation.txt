@@ -3,3 +3,5 @@ No exemplo mostrado eu uso a classe logger. Sem o singleton precisariamos instan
 o que pode ser resolvido com esse padrao de projeto.
 
 Por outro lado, um uso abusivo desse padrao eh quando ele eh usado como artificio para criacao de variaveis GLOBAIS.
+Ainda mais, esse padrao torna os testes automatizados de metodo mais complicado, pois o teste ira depender de um estado
+global armazenado no singleton.
