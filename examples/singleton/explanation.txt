@@ -1,0 +1,5 @@
+Usado para quando queremos ter somente UMA instancia de uma classe.
+No exemplo mostrado eu uso a classe logger. Sem o singleton precisariamos instanciar uma classe Logger sempre que quisermos printar algo no console,
+o que pode ser resolvido com esse padrao de projeto.
+
+Por outro lado, um uso abusivo desse padrao eh quando ele eh usado como artificio para criacao de variaveis GLOBAIS.
