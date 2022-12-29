@@ -7,4 +7,6 @@ temperatura para o cliente (por meio do console ou de uma interface grafica)
 trocar a interface textual por uma pagina Web)
 
 # Solucao
-- Fazer com que as interfaces sejam notificadas sempre q o estado da Temperatura mudar, para isso podemos usar o padrao de projeto Observer.
+- Fazer com que as interfaces sejam notificadas sempre q o estado da Temperatura mudar, para isso podemos usar o padrao de projeto Observer e, assim,
+a Temperatura nao dependera do Termometro, e sim o contrario (Inversao de Dependencia).
+ 
