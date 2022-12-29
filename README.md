@@ -53,4 +53,4 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-[⬆ Voltar ao topo](Exemplos de Padrao de Projeto)<br>
+[⬆ Voltar ao topo](#design-patterns)<br>
