@@ -14,7 +14,6 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Proxy Pattern
 - [ ] Strategy Pattern
 - [ ] Facade Pattern
-- 
 
 ## 💻 Pré-requisitos
 
