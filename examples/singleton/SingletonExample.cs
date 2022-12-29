@@ -6,9 +6,12 @@ namespace Example.Singleton {
     }
 
     class LoggerSingleton {
+        private LoggerSingleton() {} // Impedir a utilizacao de new LoggerSingleton()
+
         private static LoggerSingleton? Instance = null;
 
         public static LoggerSingleton GetInstance() {
+            // Se a instancia nao existir ira criar um novo
             if (Instance == null) {
                 Instance = new LoggerSingleton();
             }
